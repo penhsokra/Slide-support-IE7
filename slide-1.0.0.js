@@ -21,7 +21,7 @@
 /*Call slide
 $(document).ready(function(){
 	$('#slide').slide({
-		start:true,
+		auto:true,
 		speed:2000,
 		fade:true
 	})
