@@ -27,6 +27,7 @@ $(document).ready(function(){
 	})
 })*/
 
+// develope by Mr Penh sokra Date 2020.08.08
 (function($) {
 	$.fn.slide = function(options) {
 		var thisClass = '#'+$(this).attr('id');
