@@ -32,7 +32,7 @@ $(document).ready(function(){
 	$.fn.slide = function(options) {
 		var thisClass = '#'+$(this).attr('id');
 		this.defaults = {
-			start: true,
+			auto: true,
 			speed: 5000,
 			fade: false
 		}
@@ -62,7 +62,7 @@ $(document).ready(function(){
 			pageIndex += '</ul>';
 			$(thisClass).append(pageIndex);
 			function start() {
-				if (opts.start) {
+				if (opts.auto) {
 					time = setInterval(function() {
 						var old = index;
 						if (index >= count - 1) {
@@ -97,7 +97,7 @@ $(document).ready(function(){
 			});
 
 			$(this).on('mouseover', function() {
-				if (opts.start) {
+				if (opts.auto) {
 					clearInterval(time);
 				}
 				$(this).find('.ctrl-slide').css({
@@ -106,7 +106,7 @@ $(document).ready(function(){
 			});
 
 			$(this).on('mouseout', function() {
-				if (opts.start) {
+				if (opts.auto) {
 					start();
 				}
 				$(this).find('.ctrl-slide').css({
