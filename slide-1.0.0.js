@@ -67,8 +67,7 @@ $(document).ready(function(){
 						var old = index;
 						if (index >= count - 1) {
 							index = 0;
-						}
-						else {
+						}else {
 							index++;
 						}
 						change.call(_this, index, old);
@@ -80,7 +79,7 @@ $(document).ready(function(){
 				var old = index;
 				if (index >= count - 1) {
 					index = 0;
-				}else {
+				}else{
 					index++;
 				}
 				change.call(_this, index, old);
