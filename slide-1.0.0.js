@@ -71,7 +71,7 @@ $(document).ready(function(){
 							index++;
 						}
 						change.call(_this, index, old);
-					}, speed);
+					},speed);
 				}
 			};
 
@@ -79,8 +79,7 @@ $(document).ready(function(){
 				var old = index;
 				if (index >= count - 1) {
 					index = 0;
-				}
-				else {
+				}else {
 					index++;
 				}
 				change.call(_this, index, old);
@@ -90,12 +89,10 @@ $(document).ready(function(){
 			    var old = index;
 				if (index <= 0) {
 					index = count - 1;
-				}
-				else {
+				}else{
 					index--;
 				}
 				change.call(_this, index, old, 'left');
-
 			});
 
 			$(this).on('mouseover', function() {
