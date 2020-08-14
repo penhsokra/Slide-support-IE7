@@ -9,7 +9,7 @@
 /*css
 #slide{position:relative;margin:0;padding:0;width:736px;height:273px;border-radius:10px;overflow:hidden;}
 #slide > div{position:absolute;display:block;width:100%;height:100%;padding:0;z-index:111;}
-.slide .ctrl-slide{display:block;position:absolute;top:100px;display:block;width:25px;height:62px;z-index:222;background-repeat:no-repeat;background-position:0 0;background-color:red;}
+#slide .ctrl-slide{display:block;position:absolute;top:100px;display:block;width:25px;height:62px;z-index:222;background-repeat:no-repeat;background-position:0 0;background-color:red;}
 #slide .ctrl-slide.prev{}
 #slide .ctrl-slide.next{right:0}
 #slide .slide-tabs{position:absolute;bottom:30px;display:block !important;right:0;left:0;margin:0;padding:0;text-align:center;overflow:hidden;z-index:222;}
